@@ -1,7 +1,5 @@
 # f1tenth-mppi
-Model-Predictive Path Integral control algorithm for F1/10th autonomous racecar fleet
-
-
+Code written for the testing and implementation of a Model-Predictive Path Integral (MPPI) controller on Georgia Tech's Dynamics & Control System Lab's F1/10th autonomous racecar fleet. MPPI is a type of nonlinear control algorithm growing in popularity in the field of robotics; it leverages the computational power of GPU processing to solve for a lowest-cost trajectory over a specified time horizon.
 - Includes speed-testing code for various libraries and raw CUDA. PyTorch was selected for GPU acceleration architecture.
 - Includes MPPIControl.py, which is wrapped in a ROS node and contains the MPPI algorithm.
 - Includes CenterlineVisualization.py, which acts as a ROS node, taking in LiDAR information from the car and transforming it into a centerline.
