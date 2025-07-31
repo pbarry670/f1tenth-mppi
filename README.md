@@ -4,6 +4,13 @@ Code written for the testing and implementation of a Model-Predictive Path Integ
 - Includes MPPIControl.py, which is wrapped in a ROS node and contains the MPPI algorithm.
 - Includes CenterlineVisualization.py, which acts as a ROS node, taking in LiDAR information from the car and transforming it into a centerline.
 - Includes ackermann_test.py, which shows the way in which AckermannDriveStamped messages may be published to the car using control of just the acceleration and steering angle.
+<p align="center">
+<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/9b34f101-10e6-4055-94ef-b31f534d6a60" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/6b377289-3388-4e6a-af4c-82520289a7dc" />
+</p>
+<p align="center">
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/752c0c5f-3596-465a-8158-1f8fd7145d4e" />
+</p>
 
 # Using MPPIControl.py
 
